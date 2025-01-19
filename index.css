@@ -10,15 +10,21 @@ body {
   text-align: center;
 }
 h1 {
-  font-size: 50px;
+  font-size: 72px;
   font-family: "CustomFont";
   margin-top: 0;
   margin-bottom: 20px;
 }
 h2 {
+  font-size: 36px;
   font-family: "CustomFont";
   margin-top: 20px;
   margin-bottom: 10px;
+}
+
+p {
+  font-size: 24px;
+  font-family: "CustomFont";
 }
 button {
   border: none;
@@ -26,6 +32,7 @@ button {
   padding-bottom: 10px;
   color: white;
   font-family: "CustomFont";
+  font-size: 24px;
   font-weight: bold;
   width: 200px;
   margin-bottom: 5px;
