@@ -45,14 +45,23 @@ button {
   background: #8a1253;
 }
 .container {
+  display: block;
   max-width: 80%;
   background: #fff5ee;
   border-radius: 8px;
-  padding: 100px;
+  padding: 30px;
   border: 10px solid #680f3e;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
+.backlink {
+  font-size: 12px;
+  font-family: "CustomFont";
+}
+
+.backlink a {
+  color: darkorchid;
+}
 @font-face {
   font-family: "CustomFont";
   src: url("hyggemanddemoregular-yy0pm-webfont.woff") format("truetype");
